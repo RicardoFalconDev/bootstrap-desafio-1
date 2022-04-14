@@ -32,7 +32,7 @@
 } 
 
 #row-fila1 {
-    background-image: url(resources/img/img-portada.jpg);
+    background-image: url(resources/img/img-portada.jpg)!important;
     background-size: cover;
     background-position: center;
     height: 80vh;
