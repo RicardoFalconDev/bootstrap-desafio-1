@@ -1,0 +1,134 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #492F10;
+    --primario: #DF5E5E;
+    --secundario: #E98580;
+    --claro: #FDD2BF;
+}
+
+* {
+    font-family: 'Fredoka', sans-serif;
+    }
+
+#imglogo {
+    width: 80px;
+}
+/*header {
+    background-image: url(/resources/img/img-portada.jpg);
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+}*/
+
+@media (min-width: 912px ) {
+    
+    .navbar-expand-lg .navbar-collapse {
+        display: flex;
+        flex-basis: auto;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+} 
+
+#row-fila1 {
+    background-image: url(resources/img/img-portada.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+
+}
+
+#row-fila2 {
+    background-color: var(--secundario);
+}
+
+#row-fila6 {
+    background-color: #492F10;
+}
+
+.productocookies {
+    background-color: white;
+    color: var(--claro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+}
+
+.circulocookies img {
+    width: 250px;
+}
+
+.circulocookies2 img {
+    width: 250px;
+}
+
+.circulocookies3 img {
+    width: 250px;
+}
+
+.circulocookies {
+    height: 20rem;
+    width: 20rem;
+    background-color: #FF8080;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulocookies2 {
+    height: 20rem;
+    width: 20rem;
+    background-color: #C0EDA6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulocookies3 {
+    height: 20rem;
+    width: 20rem;
+    background-color: #FFF7BC;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.divdescripcionproductos {
+    margin: 1rem 1.5rem;
+}
+
+.productName {
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.productDescrition {
+    color: black;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.productPresentation {
+    color: rgb(61, 59, 59);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.productPrice {
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
